@@ -40,6 +40,10 @@ public class CalcTwoTest {
         System.out.println("Czyszczenie po każdym teście");
         calcTwo.clear();
     }
+    @Test
+    void checkDividing(){
+        assertEquals(10, calcTwo.divide(20, 2));
+    }
 
 
     @Test

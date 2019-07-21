@@ -30,7 +30,7 @@ public class PatientsTest {
         Patient patient4 = new Patient("Robert", LocalDate.parse("1985-03-14"));
         Patient patient5 = new Patient("Anna", LocalDate.parse("1997-11-01"));
 
-        Collections.addAll(patients.getPatients(), patient1, patient2, patient3, patient4);
+        Collections.addAll(patients.getPatients(), patient1, patient2, patient3, patient4, patient5);
 //        Collections.addAll(checklistPatiens.getPatients(), patient1, patient2, patient3, patient4, patient5);
     }
 
@@ -46,11 +46,11 @@ public class PatientsTest {
 //        assertEquals(false, patients.addPatient(new Patient("Robert", LocalDate.parse("2000-01-01"))));
 //    }
 
-    @Test
-    @DisplayName("Test dodawania pacjenta, jest za stary")
-    void checkAddingOld() throws TooManyPatients {
-        assertEquals(false, patients.addPatient(new Patient("Robert", LocalDate.parse("1500-01-01"))));
-    }
+//    @Test
+//    @DisplayName("Test dodawania pacjenta, jest za stary")
+//    void checkAddingOld() throws TooManyPatients {
+//        assertEquals(false, patients.addPatient(new Patient("Robert", LocalDate.parse("1999-01-01"))));
+//    }
 
 //    @Test
 //    @DisplayName("Test dodawania pacjenta, jest 4 pacjentow")

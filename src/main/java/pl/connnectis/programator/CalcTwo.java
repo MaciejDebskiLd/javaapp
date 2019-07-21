@@ -26,6 +26,7 @@ public class CalcTwo {
         return a+b;
     }
     public long divide(long a, long b){return a/b;}
+    public long multiply(long a, long b){return a * b;}
 
     public void clear(){
         stats.clear();

@@ -44,6 +44,10 @@ public class CalcTwoTest {
     void checkDividing(){
         assertEquals(10, calcTwo.divide(20, 2));
     }
+    @Test
+    void checkMultiply(){
+        assertEquals(50, calcTwo.multiply(25, 2));
+    }
 
 
     @Test

@@ -72,15 +72,15 @@ public class CalcTwoTest {
         assertEquals(1.5811388300841898, calcTwo.std());
     }
 
-    @ParameterizedTest
-    @CsvSource({"1,2,1.5", "2,2,2"})
-    void checkMeanTwo(double l1, double l2, double result) {
-        List<Double> values = new ArrayList<>();
-        values.add(l1);
-        values.add(l2);
-        calcTwo.setValues(values);
-        assertEquals(result, calcTwo.mean(), () -> "Błąd w obliczaniu średniej");
-    }
+//    @ParameterizedTest
+//    @CsvSource({"1,2,1.5", "2,2,2"})
+//    void checkMeanTwo(double l1, double l2, double result) {
+//        List<Double> values = new ArrayList<>();
+//        values.add(l1);
+//        values.add(l2);
+//        calcTwo.setValues(values);
+//        assertEquals(result, calcTwo.mean(), () -> "Błąd w obliczaniu średniej");
+//    }
 
 
     //Parametrized tests pozwalają na nieużywanie beforeEach i AfterEach

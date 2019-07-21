@@ -28,7 +28,7 @@ public class CalcTwo {
     public long divide(long a, long b){return a/b;}
     public long multiply(long a, long b){return a * b;}
 
-    public long substraction (long a, long b){
+    public int substraction (long a, long b){
         return a - b;
     }
 

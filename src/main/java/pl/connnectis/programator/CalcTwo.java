@@ -29,7 +29,7 @@ public class CalcTwo {
     public long multiply(long a, long b){return a * b;}
 
     public long substraction (long a, long b){
-        return a - b;
+        return a + b;
     }
 
     public void clear(){
